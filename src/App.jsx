@@ -8,7 +8,7 @@ import NotFound from './pages/NotFound'
 function App() {
   return (
     <Router>
-      <header>
+      {/* <header>
         <h1>Welcome to my SPA</h1>
         <nav>
           <ul>
@@ -23,11 +23,11 @@ function App() {
             </li>
           </ul>
         </nav>
-      </header>
+      </header> */}
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
-        <Route exact path="/1" component={Page}></Route>
-        <Route exact path="/2" component={Page2}></Route>
+        {/* <Route exact path="/1" component={Page}></Route>
+        <Route exact path="/2" component={Page2}></Route> */}
         <Route path="*" component={NotFound}></Route>
       </Switch>
     </Router>
