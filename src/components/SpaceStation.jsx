@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import PageLoader from './PageLoader'
+import '../styles/spaceStation.scss'
 
 function SpaceStation({ props }) {
   const [spaceStations, setSpaceStations] = useState(props)
@@ -15,7 +16,7 @@ function SpaceStation({ props }) {
               <li key={station.id}>
                 <h1>{station.title}</h1>
                 <p>{station.summary}</p>
-                <a href={station.url}>
+                <a href={station.url} target="_blank">
                   <h5>Read More</h5>
                 </a>
               </li>
