@@ -4,6 +4,7 @@ import Page from './pages/Page'
 import Page2 from './pages/Page2'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
