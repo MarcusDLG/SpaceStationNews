@@ -9,10 +9,10 @@ const Hero = () => {
         <section className="hero_text">
           <h1>Space Station Daily Summaries</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            praesentium voluptas saepe nesciunt sapiente sint rem, deleniti,
-            facere, commodi fugit voluptatibus dolor sed reiciendis assumenda
-            quas voluptate illo molestias adipisci?
+            Daily summaries from NASA.gov covering the daily activities of the
+            astronauts aboard the International Space Station. At a running
+            total of 150 billion USD, it is the most expensive man made object
+            and has advanced our scientific research by leaps and bounds.
           </p>
         </section>
       </section>
