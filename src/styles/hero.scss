@@ -1,0 +1,19 @@
+.hero_Container {
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  .hero_text {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.hero_image {
+  background-image: url('../images/ISS.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100vw;
+  // width: 100%;
+  // width: auto;
+}

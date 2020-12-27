@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import SpaceStation from '../components/SpaceStation'
 import axios from 'axios'
 import PageLoader from '../components/PageLoader'
+import Hero from '../components/Hero'
 
 function HomePage() {
   const [spaceStation, setSpaceStation] = useState()
@@ -19,7 +20,12 @@ function HomePage() {
   console.log(spaceStation)
 
   if (spaceStation) {
-    return <SpaceStation props={spaceStation} />
+    return (
+      <>
+        <Hero />
+        <SpaceStation props={spaceStation} />
+      </>
+    )
   } else {
     return <PageLoader />
   }
