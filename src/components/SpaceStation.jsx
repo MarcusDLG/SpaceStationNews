@@ -25,8 +25,8 @@ function SpaceStation({ props }) {
               <li key={station.id}>
                 <Card body outline color="secondary" className="card">
                   <CardImg top-width="100%" src={station.imageUrl} alt="" />
-                  <CardBody>
-                    <CardTitle tag="h5">{station.title}</CardTitle>
+                  <CardTitle tag="h5">{station.title}</CardTitle>
+                  <CardBody className="card_body">
                     <CardText>{station.summary}</CardText>
                     <Button color="warning">
                       <CardLink
