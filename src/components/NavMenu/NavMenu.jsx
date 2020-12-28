@@ -12,7 +12,7 @@ export class NavMenu extends Component {
         <a id="home" className="menu-item" href="/">
           Space Station Daily News
         </a>
-        <a id="about" className="menu-item" href="/page">
+        <a id="about" className="menu-item" href="/blogs">
           Satellite News
         </a>
         <a id="contact" className="menu-item" href="/page2">
