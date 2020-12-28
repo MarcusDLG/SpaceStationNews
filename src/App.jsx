@@ -14,8 +14,8 @@ function App() {
       <Layout>
         <Switch>
           <Route exact path="/" component={HomePage}></Route>
-          {/* <Route exact path="/1" component={Page}></Route>
-        <Route exact path="/2" component={Page2}></Route> */}
+          <Route exact path="/1" component={Page}></Route>
+          <Route exact path="/2" component={Page2}></Route>
           <Route path="*" component={NotFound}></Route>
         </Switch>
       </Layout>
