@@ -4,13 +4,13 @@ import axios from 'axios'
 import PageLoader from '../components/PageLoader'
 import Hero from '../components/Hero'
 
-function HomePage() {
+function Page() {
   const [spaceStation, setSpaceStation] = useState()
 
   useEffect(() => {
     const getSpace = async () => {
       const resp = await axios.get(
-        'https://spaceflightnewsapi.net/api/v2/reports'
+        'https://spaceflightnewsapi.net/api/v2/blogs'
       )
       // console.log(resp.data)
       setSpaceStation(resp.data)
@@ -31,4 +31,4 @@ function HomePage() {
   }
 }
 
-export default HomePage
+export default Page
